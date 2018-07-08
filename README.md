@@ -38,3 +38,10 @@ else
     Console.WriteLine("file1 - not compressed by zlib");
 }
 ```
+Basic compression levels is 0-9, library contains 3 basic on ```ZLibCompressionLevel``` class
+```C#
+ZlibCompressionLevel.NO_COMPRESSION
+ZlibCompressionLevel.BEST_SPEED
+ZlibCompressionLevel.BEST_COMPRESSION
+ZlibCompressionLevel.DEFAULT_COMPRESSION
+```
