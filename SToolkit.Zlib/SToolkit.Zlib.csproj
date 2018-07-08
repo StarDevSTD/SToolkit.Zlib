@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp2.0;net35;net40;net45</TargetFrameworks>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>SToolkit.Zlib.Key.pfx</AssemblyOriginatorKeyFile>
+    <Authors>StarDev</Authors>
+    <Company>StarDev</Company>
+    <Description>Zlib manage library, based on componentace.zlib with easy usage</Description>
+    <PackageProjectUrl>https://github.com/StarDevSTD/SToolkit.Zlib</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/StarDevSTD/SToolkit.Zlib</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
